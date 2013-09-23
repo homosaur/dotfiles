@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+#######
+# IMPORTANT: you must symlink this file from ~/.vim and run it from there
+#######
+
 git_bundles = [
 	"https://github.com/scrooloose/nerdtree.git",
 	"https://github.com/tomasr/molokai.git",
