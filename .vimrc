@@ -131,6 +131,8 @@ nmap <Leader>w :call <SID>StripTrailingWhitespace()<cr>
 """"""""""""""""""
 " 5. Navigation and Keymapping
 """"""""""""""""""
+" faster escape from modes
+imap jj <Esc>
 
 """"""""""""""""""
 " 6. Status Bar
