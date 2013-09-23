@@ -1,10 +1,6 @@
 """"""""""""""""""
 " Paul's .vimrc
 """"""""""""""""""
-" Installed pathogen bundles - git@github.com:tpope/vim-pathogen.git
-"  - NERDTree - git@github.com:scrooloose/nerdtree.git
-"  - Molokai color scheme - git@github.com:tomasr/molokai.git
-"
 " CONTENTS
 " 1. Plugin and Basic Setup
 " 2. Vim UI
