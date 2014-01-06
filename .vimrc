@@ -144,3 +144,8 @@ set laststatus=2
 " set ,ss to spell check
 map <leader>ss :setlocal spell!<cr>
 
+""""""""""""""""""
+" 8. Plugin Options
+""""""""""""""""""
+" show dotfiles in NERDTree by default
+let NERDTreeShowHidden=0
