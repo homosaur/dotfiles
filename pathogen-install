@@ -8,7 +8,8 @@ git_bundles = [
 	"https://github.com/scrooloose/nerdtree.git",
 	"https://github.com/tomasr/molokai.git",
 	"https://github.com/tpope/vim-fugitive.git",
-	"https://github.com/tpope/vim-markdown.git"
+	"https://github.com/tpope/vim-markdown.git",
+	"https://github.com/editorconfig/editorconfig-vim.git"
 ]
 
 vim_org_scripts = [
