@@ -67,7 +67,59 @@ set magic
 set showmatch
 set mat=2
 
-" cleanup
+
+" turns line numbers on
+set number
+
+""""""""""""""""""
+" 3. Colors and Fonts
+""""""""""""""""""
+
+" syntax highlighting on
+syntax on
+colorscheme molokai
+
+" set extra options for GUI
+if has("gui_running")
+	set guioptions-=T
+	set guioptions+=e
+	set t_Co=256
+	set guitablabel=%M\ %t
+endif
+
+""""""""""""""""""
+" 4. Text, Tabs, Indents
+""""""""""""""""""
+" modernize tab behavior
+set smarttab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+" smarter indents
+set ai
+set si
+set wrap
+
+" show hidden characters in Vim
+set list
+
+" settings for hidden chars
+" what particular chars they are displayed with
+set lcs=tab:▒░,trail:▓
+" or
+set listchars=tab:▒░,trail:▓
+
+" stomp whitespace function
+function! <SID>StripTrailingWhitespace()
+	" save last search and cursor position
+	let _s=@/
+	let l=line(".")
+	let c=col(".")
+	" do it
+	%s/\s\+$//e
+	" cleanup
 	let @/=_s
 	call cursor(l, c)
 endfunction
