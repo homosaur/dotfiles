@@ -16,7 +16,7 @@
 " 1. Plugin and Basic Setup
 """"""""""""""""""
 " pathogen runs all my plugins
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " UTFin
 set encoding=utf8
@@ -77,7 +77,7 @@ set number
 
 " syntax highlighting on
 syntax on
-colorscheme molokai
+" colorscheme molokai
 
 " set extra options for GUI
 if has("gui_running")
