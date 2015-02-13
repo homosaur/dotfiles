@@ -1,4 +1,5 @@
 # local aliases for NPM
 alias gulp="node_modules/.bin/gulp"
+alias bower="node_modules/.bin/bower"
 alias composer="php ~/bin/composer.phar"
 alias be="bundle exec"
